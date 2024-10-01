@@ -1,0 +1,335 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* button {
+    background-color: #c24c73e7;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #a83c63e7;
+}*/
+
+.publication {
+    background-color: white;
+    border-radius: 10px;
+    padding : 10px 0;
+    margin: 10px 10px 0 10px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publication p, .commentaire p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.publication small, .commentaire small {
+    color: #888;
+    margin: 10px;
+}
+/*
+.buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background-color: #c24c73e7;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #a83c63e7;
+}
+
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+form button[type="submit"] {
+    background-color: #c24c73e7;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button[type="submit"]:hover {
+    background-color: #a83c63e7;
+}*/
+.nom_prenom
+{
+    font-weight: bolder;
+    display: flex;
+    margin: 0 20px;
+    align-items: center;
+}
+.contenu
+{
+    padding: 10px 10px;
+}
+.voir_reaction input, .voir_commentaire input
+{
+    background: none;
+    border: none;
+}
+.nombre_reactions_commentaires{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.nombre_reactions_commentaires:hover
+{
+    background-color: #f8f8f8d7;
+}
+/*
+.form_commentaire
+{
+    display: flex;
+    flex-direction: row;
+}*/
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    gap: 20px;
+}/*
+.login_form {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+} */
+
+/* form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"],
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #d85b85ce;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #c24c73e7;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #d85b85ce;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #d6b6c1e7;
+} */
+
+a {
+    color: #0a0104e7;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.error {
+    color: red;
+    text-align: center;
+}
+.bouton_commentaire {
+    display: none;
+}
+.bouton_commentaire {
+    display: flex;
+    flex-direction: row; /* Pour aligner les éléments horizontalement */
+    align-items: center; /* Aligner les éléments verticalement au centre */
+    justify-content: space-between; /* Espace égal entre les éléments */
+    max-width: 350px;
+    margin: 20px;
+}
+.commentaire
+{
+    background-color: #dfe0e77a;
+    border-radius: 10px;
+    max-width: 300px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 20px;
+}
+.ensemble_reponses_commentaire
+{
+    margin: 0 75px;
+}
+.contenu_commentaire
+{
+    padding: 5px 10px;
+}
+.date_lance_commentaire {
+    font-size: 15px;
+}
+.reaction_par_defaut_commentaire
+{
+    font-size: 15px;
+}
+.form_ecrire_commentaire {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: white;
+    max-width: 500px;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    bottom: 0; /* Pour rester en bas de la page */
+    z-index: 1000; /* Assure que l'élément est au-dessus d'autres éléments si nécessaire */
+}
+.form_ecrire_commentaire button
+{
+    background-color: #777779b0;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.form_ecrire_commentaire button:hover
+{
+    background-color: #7c797ae7;
+}
+.publier{
+    background-color: #777779b0;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.publier:hover{
+    background-color: #7c797ae7;
+}
+.ecrire_commentaire {
+    border: none;
+    background: none;
+}
+.ensemble_commentaires
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    max-width: 500px;
+}
+.material-symbols-outlined{
+    color: blue;
+}
+.emoji_commenter{
+    font-size: 20px;
+    color: #4b81a9;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 2px 2px rgba(80, 80, 80, 0.1);
+}
+.emoji_commenter:hover
+{
+    background-color: #eeeeeec4;
+}
+.nombre_reaction_commentaire{
+    width: 60px;
+}
+.publier_form{
+    margin: 10px 40px;
+}
